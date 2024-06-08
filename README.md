@@ -8,15 +8,15 @@ Items:
 4. Prettier
 5. StyledComponents
 6. React Router
-7. Axios or Fetch API
-8. React Query or SWR
+7. Axios
+8. React Query
 9. Context API
-10. Jest/Vitest
+10. Vitest
 11. React Testing Library
 12. Playwight
 13. Lazy load
 14. Code splitting
-15. **a11y**
+15. a11y
 16. Sanitize
 17. Storybook
 18. Enviroments
