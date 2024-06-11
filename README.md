@@ -1,3 +1,5 @@
+[![Node.js Package](https://github.com/TheLucasAnderson/boilerplate-helper/actions/workflows/npm-publish.yml/badge.svg?branch=main&event=release)](https://github.com/TheLucasAnderson/boilerplate-helper/actions/workflows/npm-publish.yml)
+
 The project consists of creating a broadly scalable structure aligned with good Frontend development practices, containing tools, libs, structures and definitions that enable use in various web scenarios and consequently save time when starting new applications.
 
 Items: 
