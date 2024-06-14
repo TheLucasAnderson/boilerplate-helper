@@ -1,25 +1,24 @@
-[![Node.js Package](https://github.com/TheLucasAnderson/boilerplate-helper/actions/workflows/npm-publish.yml/badge.svg?branch=main&event=release)](https://github.com/TheLucasAnderson/boilerplate-helper/actions/workflows/npm-publish.yml)
-
 The project consists of creating a broadly scalable structure aligned with good Frontend development practices, containing tools, libs, structures and definitions that enable use in various web scenarios and consequently save time when starting new applications.
 
 Items: 
 
-1. Vite
-2. Typescript
-3. Eslint
-4. Prettier
-5. StyledComponents
-6. React Router
-7. Axios
-8. React Query
-9. Context API
-10. Vitest
-11. React Testing Library
-12. Playwight
-13. Lazy load
-14. Code splitting
-15. a11y
-16. Sanitize
-17. Storybook
-18. Enviroments
-19. CI/CD
+1. React
+2. Vite
+3. Typescript
+4. Eslint
+5. Prettier
+6. StyledComponents
+7. React Router
+8. Axios
+9. React Query
+10. Context API
+11. Vitest
+12. React Testing Library
+13. Playwight
+14. Lazy load
+15. Code splitting
+16. a11y
+17. Sanitize
+18. Storybook
+19. Enviroments
+20. CI/CD
