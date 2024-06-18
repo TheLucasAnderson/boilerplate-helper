@@ -1,6 +1,6 @@
 {
   "name": "boilerplate-helper",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "author": "github/TheLucasAnderson",
   "description": "A boilerplate for React projects with Typescript and Vite",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "url": "https://github.com/TheLucasAnderson/boilerplate-helper"
   },
   "dependencies": {
+    "commitizen": "4.3.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
@@ -24,7 +25,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "commit": "cz"
   },
   "keywords": [
     "boilerplate",
