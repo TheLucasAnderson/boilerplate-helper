@@ -6,6 +6,7 @@
   "license": "MIT",
   "main": "./src/main.tsx",
   "files": [
+    "src/**/*",
     "*"
   ],
   "repository": {
