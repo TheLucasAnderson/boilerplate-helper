@@ -1,6 +1,6 @@
 {
   "name": "boilerplate-helper",
-  "version": "0.6.0",
+  "version": "0.6.3",
   "author": "github/TheLucasAnderson",
   "description": "A boilerplate for React projects with Typescript and Vite",
   "license": "MIT",
@@ -10,7 +10,6 @@
     "url": "https://github.com/TheLucasAnderson/boilerplate-helper"
   },
   "dependencies": {
-    "commitizen": "4.3.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
@@ -21,6 +20,7 @@
     "@types/react-dom": "18.3.0",
     "@vitejs/plugin-react": "4.3.0",
     "@vitest/coverage-v8": "1.6.0",
+    "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
     "jsdom": "24.1.0",
     "typescript": "5.4.5",
