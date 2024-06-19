@@ -5,6 +5,9 @@
   "description": "A boilerplate for React projects with Typescript and Vite",
   "license": "MIT",
   "main": "./src/main.tsx",
+  "files": [
+    "*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/TheLucasAnderson/boilerplate-helper"
