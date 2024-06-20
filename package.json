@@ -1,17 +1,18 @@
 {
   "name": "boilerplate-helper",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "author": "github/TheLucasAnderson",
   "description": "A boilerplate for React projects with Typescript and Vite",
   "license": "MIT",
   "main": "./src/main.tsx",
-  "files": [
-    "src/**/*",
-    "*"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TheLucasAnderson/boilerplate-helper"
+  "scripts": {
+    "build": "vite build",
+    "commit": "cz",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "vite",
+    "test": "vitest"
   },
   "dependencies": {
     "react": "18.3.1",
@@ -24,23 +25,32 @@
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@types/styled-components": "5.1.34",
+    "@typescript-eslint/eslint-plugin": "7.13.1",
+    "@typescript-eslint/parser": "7.13.1",
     "@vitejs/plugin-react": "4.3.0",
     "@vitest/coverage-v8": "1.6.0",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
+    "eslint": "9.5.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "eslint-plugin-react": "7.34.3",
+    "eslint-plugin-react-hooks": "4.6.2",
     "jsdom": "24.1.0",
+    "prettier": "3.3.2",
     "typescript": "5.4.5",
     "vite": "5.2.13",
     "vite-plugin-eslint": "1.8.1",
     "vitest": "1.6.0"
   },
-  "scripts": {
-    "test": "vitest",
-    "coverage": "vitest run --coverage",
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "commit": "cz"
+  "files": [
+    "src/**/*",
+    "*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheLucasAnderson/boilerplate-helper"
   },
   "keywords": [
     "boilerplate",
