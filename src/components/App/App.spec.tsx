@@ -1,11 +1,11 @@
-import { describe, expect, it } from "vitest";
-import { render, screen } from "@testing-library/react";
-import { App } from ".";
+import { describe, expect, it } from 'vitest';
+import { render, screen } from '@testing-library/react';
+import { App } from '.';
 
-describe("App", () => {
-  it("renders a heading with the correct text", () => {
+describe('App', () => {
+  it('renders a heading with the correct text', () => {
     render(<App />);
-    const textElement = screen.getByText("Web View - Boilerplate Helper");
+    const textElement = screen.getByText('Web View - Boilerplate Helper');
     expect(textElement).not.toBe(null);
   });
 });
