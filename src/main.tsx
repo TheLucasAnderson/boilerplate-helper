@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import { Navigation } from './routes.tsx';
 import ResetStyles from './styles/reset.ts';
 import theme from './styles/theme';
+import '../i18n.config.ts';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

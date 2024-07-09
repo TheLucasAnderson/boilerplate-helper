@@ -1,5 +1,8 @@
+import { useTranslation } from 'react-i18next';
 import * as S from './styles';
 
 export const App = () => {
-  return <S.Text>Web View - Boilerplate Helper</S.Text>;
+  const { t } = useTranslation();
+
+  return <S.Text>{t('title')}</S.Text>;
 };

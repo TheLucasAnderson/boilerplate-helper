@@ -1,6 +1,6 @@
 {
   "name": "boilerplate-helper",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "author": "github/TheLucasAnderson",
   "description": "A boilerplate for React projects with Typescript and Vite",
   "license": "MIT",
@@ -14,8 +14,10 @@
     "test": "vitest"
   },
   "dependencies": {
+    "i18next": "23.11.5",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "react-i18next": "14.1.2",
     "react-router-dom": "6.23.1",
     "styled-components": "6.1.11"
   },
