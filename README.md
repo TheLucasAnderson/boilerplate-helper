@@ -57,8 +57,9 @@ Items:
 13. Playwright
 14. Lazy load
 15. Code splitting
-16. a11y
+16. i18next
 17. Sanitize
 18. Storybook
 19. Environments
 20. CI/CD
+21. Husky
