@@ -1,8 +1,8 @@
-import { App } from '../components';
+import { Home } from '../components';
 
 export default () => (
   <div>
     <p>Home Page</p>
-    <App />
+    <Home />
   </div>
 );
