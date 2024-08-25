@@ -15,6 +15,20 @@
 
 ### Getting Started
 
+#### Commands
+
+Use the follow command to install the app;
+```bash
+npm i boilerplate-helper
+```
+
+Run the follow command inside the app folder:
+```bash
+npx boilerplate-helper
+```
+
+#### Github
+
 To get started with the Boilerplate Helper, you can clone the repository from GitHub:
 
 ```bash
