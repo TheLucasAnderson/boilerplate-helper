@@ -7,12 +7,12 @@ const cloneCommand = `git clone ${repoUrl}`;
 
 exec(cloneCommand, (error, stdout, stderr) => {
   if (error) {
-    console.error(`Erro ao clonar o repositório: ${error.message}`);
+    console.error(`Error cloning repository: ${error.message}`);
     return;
   }
   if (stderr) {
-    console.error(`Erro: ${stderr}`);
+    console.error(`Error: ${stderr}`);
     return;
   }
-  console.log(`Saída: ${stdout}`);
+  console.log(`Out: ${stdout}`);
 });

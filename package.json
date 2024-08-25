@@ -5,7 +5,7 @@
   "description": "A boilerplate for React projects with Typescript and Vite",
   "license": "MIT",
   "bin": {
-    "boilerplate-helper": "./index.js"
+    "boilerplate-helper": "./clone-repository.js"
   },
   "scripts": {
     "build": "vite build",
