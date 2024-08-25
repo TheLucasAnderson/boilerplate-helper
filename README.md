@@ -50,7 +50,7 @@ To use the Boilerplate Helper, you can install it using npm or clone the reposit
     Once the dependencies are installed, you can start the development server:
 
     ```bash
-      npm run dev
+      npm run start
     ```
 </details>
 
