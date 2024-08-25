@@ -37,20 +37,20 @@ To use the Boilerplate Helper, you can install it using npm or clone the reposit
     To get started with the Boilerplate Helper, you can clone the repository from GitHub:
 
     ```bash
-    git clone https://github.com/thelucasanderson/boilerplate-helper.git
+      git clone https://github.com/thelucasanderson/boilerplate-helper.git
     ```
 
     After cloning the repository, navigate to the project directory and install the dependencies:
 
     ```bash
-    cd boilerplate-helper
-    npm install
+      cd boilerplate-helper
+      npm install
     ```
 
     Once the dependencies are installed, you can start the development server:
 
     ```bash
-    npm run dev
+      npm run dev
     ```
 </details>
 
