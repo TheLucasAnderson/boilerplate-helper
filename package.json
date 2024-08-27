@@ -1,6 +1,6 @@
 {
   "name": "boilerplate-helper",
-  "version": "0.14.6",
+  "version": "0.14.7",
   "author": "github/TheLucasAnderson",
   "description": "A boilerplate for React projects with Typescript and Vite",
   "license": "MIT",
