@@ -48,7 +48,7 @@
     "husky": "^8.0.0",
     "jsdom": "24.1.0",
     "prettier": "3.3.3",
-    "typescript": "5.4.5",
+    "typescript": "5.5.4",
     "vite": "5.2.13",
     "vite-plugin-eslint": "1.8.1",
     "vitest": "1.6.0"
