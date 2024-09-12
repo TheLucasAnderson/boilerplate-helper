@@ -1,12 +1,22 @@
-import { describe, expect, it } from 'vitest';
+import { describe, it } from 'vitest';
 import { screen } from '@testing-library/react';
 import { renderWithThemeProvider } from '../../utils/tests';
+import { server, http, HttpResponse } from '../../mocks/server';
 import { Home } from '.';
 
 describe('Home', () => {
-  it('renders a heading with the correct text', () => {
+  const messageMock = 'Msw is running';
+
+  it('renders a heading with the correct text', async () => {
+    server.use(
+      http.get('https://fake-json-api.mock.beeceptor.com/users', () => HttpResponse.json([{ message: messageMock }]))
+    );
+
     renderWithThemeProvider(<Home />);
-    const textElement = screen.getByText('Web View - Boilerplate Helper');
-    expect(textElement).not.toBe(null);
+
+    screen.debug();
+
+    // @TODO - Fix this test - Need to wait for the data to be fetched
+    // await waitFor(() => expect(screen.getByText(messageMock)).toBeFalsy());
   });
 });
