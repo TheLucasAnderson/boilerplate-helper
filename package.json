@@ -1,6 +1,6 @@
 {
   "name": "boilerplate-helper",
-  "version": "0.16.24",
+  "version": "0.17.0",
   "author": "github/TheLucasAnderson",
   "description": "A boilerplate for React projects with Typescript and Vite",
   "license": "MIT",
@@ -52,9 +52,9 @@
     "msw": "2.6.5",
     "prettier": "3.4.2",
     "typescript": "5.7.3",
-    "vite": "5.4.12",
+    "vite": "6.1.0",
     "vite-plugin-eslint": "1.8.1",
-    "vitest": "1.6.1"
+    "vitest": "3.0.5"
   },
   "files": [
     "src/**/*",
