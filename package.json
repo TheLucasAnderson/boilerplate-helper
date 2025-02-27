@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@testing-library/jest-dom": "6.6.3",
-    "axios": "1.7.9",
+    "axios": "1.8.1",
     "graphql": "16.10.0",
     "i18next": "24.2.2",
     "react": "18.3.1",
